@@ -7,7 +7,7 @@ const todoRouter = require('./routes/todoRoutes');
 const userRouter = require('./routes/userRoutes');
 
 //app creation 
-const PORT=4000;
+const PORT = process.env.PORT || 4000;
 const app=express();
 
 //middlewares
